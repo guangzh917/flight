@@ -1,0 +1,7 @@
+A00041 chongqing guangzou 2015/08/23-18:22 2h00' 300 A 
+B00014 guangzhou NewYork 2015/08/24-13:00 10h00' 6200 B 
+A00011 chongqing beijing 2015/08/24-11:30 2h24' 500 A 
+B00035 chongqing Tokyo 2015/08/25-18:30 5h30' 1120 B 
+A00021 chongqing shanghai 2015/08/24-14:50 1h23' 400 A 
+A00013 chongqing zhongguancun 2015/08/26-12:00 4h00' 420 A 
+B00051 guangzhou london 2015/08/27-16:00 9h30' 4500 B 

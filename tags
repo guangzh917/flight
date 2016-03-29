@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Administrator	function.c	/^void Administrator(struct flights *flink, struct flights *flink2)\/\/以管理员身份进入系统$/;"	f
+__FUNCTION__	function.h	2;"	d
+acquire	function.c	/^void acquire(struct flights *root, FILE *fp)\/\/把文件里面的航班信息载入到链表中$/;"	f
+cc	Makefile	/^cc=gcc$/;"	m
+change	function.c	/^int change(struct flights *root)\/\/更改对应航班的信息$/;"	f
+change2	function.c	/^int change2(struct flights *root2)\/\/更改指定乘客信息$/;"	f
+change_passenger	function.c	/^void change_passenger(struct flights *root2)\/\/更改乘客信息（针对性更改，新建乘客信息，删除乘客信息）$/;"	f
+delete2	function.c	/^int delete2(struct flights *root2)\/\/删除指定乘客信息 $/;"	f
+delete_flight	function.c	/^int delete_flight(struct flights *root)\/\/删除结点$/;"	f
+display	function.c	/^int display(struct flights *root)\/\/从头到尾显示当前链表，前驱显示$/;"	f
+display2	function.c	/^int display2(struct flights *root, char *n)\/\/从头到尾显示当前链表，前驱显示$/;"	f
+duration	function.h	/^	char duration[7];$/;"	m	struct:flights
+find	function.c	/^int find(struct flights *root, struct flights *root2)\/\/查找对应航班的信息，以及对应航班乘客信息$/;"	f
+find2	function.c	/^int find2(struct flights *root2)\/\/查找航班乘客信息$/;"	f
+flights	function.h	/^struct flights$/;"	s
+free_flights	function.c	/^int free_flights(struct flights *root)\/\/清空释放链表$/;"	f
+from	function.h	/^	char from[20];$/;"	m	struct:flights
+insert	function.c	/^void insert(struct flights *root)\/\/双向循环链表尾部插入$/;"	f
+insert2	function.c	/^void insert2(struct flights *root2)\/\/新建一个乘客信息$/;"	f
+is_empty	function.c	/^int is_empty(struct flights *root)\/\/空链表判断$/;"	f
+main	main.c	/^int main(void)$/;"	f
+menu	function.c	/^void menu()\/\/主菜单界面$/;"	f
+menu2	function.c	/^void menu2()\/\/访客菜单界面$/;"	f
+new	function.c	/^struct flights *new(char *n, char *f, char *t, char *d, char *ti, int price, char *ty)\/\/新结点$/;"	f
+next	function.h	/^	struct flights *next;$/;"	m	struct:flights	typeref:struct:flights::flights
+number	function.h	/^	char number[7];$/;"	m	struct:flights
+obj	Makefile	/^obj=$(patsubst %.c,%.o,$(wildcard *.c))$/;"	m
+prev	function.h	/^	struct flights *prev;$/;"	m	struct:flights	typeref:struct:flights::flights
+price	function.h	/^	int price;$/;"	m	struct:flights
+save	function.c	/^void save(struct flights *root)\/\/链表中的信息是操作后（有可能有修改的）信息，对他进行保存$/;"	f
+save2	function.c	/^void save2(struct flights *root2)\/\/链表中的信息是操作后（有可能有修改的）信息，对他进行保存$/;"	f
+sort	function.c	/^void sort(struct flights *root)\/\/对航班按照需要进行排序操作$/;"	f
+sort2	function.c	/^void sort2(struct flights *root2)\/\/按照机票号码排序 $/;"	f
+sort_number	function.c	/^void sort_number(struct flights *root)\/\/排序3：按照航班号进行排序$/;"	f
+sort_price	function.c	/^void sort_price(struct flights *root)\/\/排序2：按照航班对应机票价格进行排序$/;"	f
+sort_time	function.c	/^void sort_time(struct flights *root)\/\/排序1：按照航班起飞时间进行排序$/;"	f
+target	Makefile	/^target=flight$/;"	m
+terminal	function.h	/^	char terminal[20];$/;"	m	struct:flights
+time	function.h	/^	char time[18];$/;"	m	struct:flights
+type	function.h	/^	char type[2];$/;"	m	struct:flights
+visitor	function.c	/^void visitor(struct flights *flink, struct flights *flink2)\/\/以访客身份进入系统$/;"	f
